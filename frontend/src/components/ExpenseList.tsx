@@ -26,7 +26,6 @@ import { deleteExpense } from "../slice/expenseSlice";
 
 export function ExpenseList() {
 
-  const dispatch = useDispatch();
   const expenses = useSelector((state: RootState) => state.expense.items);
 
   const [activeTab, setActiveTab] = useState('expenses');

@@ -1,0 +1,82 @@
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #6ee7b7;
+    color: #0a1a10;
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 14px;
+    border: none;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    letter-spacing: .5px;
+    transition: opacity .2s;
+    margin-top: 15px;
+}
+
+.submit-btn:hover {
+    opacity: 0.85;
+}
+
+
+.addexpense-form {
+    background: #161a20;
+    border-radius: 10px;
+    padding: 16px;
+    color: #7a8394;
+        border: 1px solid #ffffff14;
+
+}
+
+.cardbg {
+    background: #161a20;
+    border-radius: 10px;
+    border: 1px solid #ffffff14;
+}
+
+.graph-section {
+    background: #161a20;
+    border-radius: 10px;
+    padding: 16px;
+    color: #7a8394;
+        border: 1px solid #ffffff14;
+
+}
+
+.input-field {
+    padding: 5px;
+    background: #1e242c;
+    color: #ffffff;
+    font-family: inherit;
+    border: 1px solid #ffffff29;
+    border-radius: var(--radius-md);
+    font-size: 14px;
+}
+
+.expensecard {
+    background: #1e242c;
+    border-radius: 10px;
+    padding: 11px 13px;
+    color: #7a8394;
+        border: 1px solid #ffffff14;
+
+}
+.iconcard {
+     width: 36px;
+    height: 36px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    flex-shrink: 0;
+}
+
+.expensedetails p{
+    font-size: 14px;
+}
+.expensedetails .catp{
+    font-size: 11px;
+    margin-top: 2px;
+    opacity: .8;
+}

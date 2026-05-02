@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+:root {
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --primary-active: #3730a3;
+  --primary-focus: #312e81;
+  background-color: #0d0f12;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}

@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { expenseSlice } from "./slice/expense";
+import { expenseSlice } from "./slice/expenseSlice";
 
 
 export const store = configureStore({

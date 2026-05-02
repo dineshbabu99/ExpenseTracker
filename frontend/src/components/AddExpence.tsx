@@ -16,7 +16,7 @@ const handleAddExpense = (e: React.FormEvent<HTMLFormElement>) => {
     const date = formData.get("date") as string;
     const description = formData.get("note") as string;
 
-    if (!amount || isNaN(amount)) {
+    if (!amount || isNaN(amount) || amount <= 0) {
       alert("Enter valid amount");
       return;
     }

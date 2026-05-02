@@ -8,8 +8,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route index element={<Navigate to="/expenses" />} />
-        <Route path="expenses" element={<Expense />} />
+        <Route index element={<Expense />} />   {/* ✅ default page */}
       </Route>
     </Routes>
   );

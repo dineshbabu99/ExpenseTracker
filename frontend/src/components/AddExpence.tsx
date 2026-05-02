@@ -64,7 +64,7 @@ const handleAddExpense = (e: React.FormEvent<HTMLFormElement>) => {
                 </div>
                 <div className="mb-4">
                     <label className="block mb-2">Date</label>
-                    <input type="date" name="date" value={new Date().toISOString().split('T')[0]} className="w-full p-2 rounded input-field" />
+                    <input type="date" name="date"   defaultValue={new Date().toISOString().split("T")[0]} className="w-full p-2 rounded input-field" />
                 </div>
                 <div className="mb-4">
                     <label className="block mb-2">Note</label>

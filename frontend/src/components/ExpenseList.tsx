@@ -7,7 +7,6 @@
 import "../style.css"
 import { useState } from "react";
 import { categories } from "../data/mockExpence";
-// import { filterByCategory, searchByName, applyFilters, resetFilters } from "../slice/expenseSlice";
 
 import { useDispatch, useSelector } from "react-redux";
 type DateRange = {

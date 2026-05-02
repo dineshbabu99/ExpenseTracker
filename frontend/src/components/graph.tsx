@@ -5,7 +5,7 @@ import {
   Tooltip,
   Legend
 } from 'chart.js';
-import { mockExpenses, categories } from "../data/mockExpence";
+import { categories } from "../data/mockExpence";
 import { useSelector } from "react-redux";
 import type { RootState } from "../store";
 ChartJS.register(ArcElement, Tooltip, Legend);

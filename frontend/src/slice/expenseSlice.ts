@@ -1,5 +1,4 @@
 import {createSlice} from '@reduxjs/toolkit'
-import { mockExpenses } from '../data/mockExpence'
 import type { Expense } from '../types/expense'
 
 

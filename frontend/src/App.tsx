@@ -1,5 +1,5 @@
 
-import { Navigate, Routes, Route } from 'react-router-dom'
+import {  Routes, Route } from 'react-router-dom'
 import {Layout} from './components/Layout.tsx'
 import './App.css'
 import { Expense } from './components/Expense.tsx'
